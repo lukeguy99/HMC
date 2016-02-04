@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="0dp" >
+
+    <LinearLayout
+        android:layout_width="@dimen/popup_width"
+        android:layout_height="@dimen/popup_height"
+        android:background="@drawable/dialog_background_bw"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <com.hmc.onegoodday.widgets.UpperCaseTextView
+            style="@style/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/title_background_bw"
+            android:drawableLeft="@drawable/logo_small_bw"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:paddingRight="16dp"
+            android:text="@string/app_name" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <com.hmc.onegoodday.widgets.OgdTextView
+                android:id="@+id/endGameText"
+                style="@style/popup_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/quest_details_background_bw"
+                android:gravity="center"
+                android:maxLines="14"
+                android:minLines="12"
+                android:padding="@dimen/popup_text_padding"
+                android:text="@string/hospital_quest_description" />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:weightSum="3" >
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                android:id="@+id/newGameButton"
+                style="@style/popup_button"
+                android:background="@drawable/button_states_bw"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:text="@string/new_game" />
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                android:id="@+id/exitGameButton"
+                style="@style/popup_button"
+                android:background="@drawable/button_states_bw"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:text="@string/exit_game" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

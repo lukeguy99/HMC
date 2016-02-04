@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="location_not_available">Current location unavailable</string>
+    
+    <!-- MENU -->
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_inventory">Inventory</string>
+    <string name="menu_my_location">My location</string>
+    <string name="menu_new_game">New game</string>
+    <string name="menu_quest_log">Quest log</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="new_game">New game</string>
+    <string name="exit_game">Exit</string>
+    
+    <string name="about">&lt;b>Les Mislerebles&lt;/b> is an informal artistic group from Serbia that is dedicated to creating/using digital games for social change. Les Mislerebles are interested in exploring, working with and commenting on socio-economical issues of the underprivileged/subaltern, geopolitics and ecology. Les Mislerebles are using micro-political and micro-social practices while at the same time applying new aesthetic and analytical methodology to foster new/alternative subjectivity. Working with board games and/or digital navigation applications, Les Miserables are making subversive games that play with the player\'s expectations.&lt;br>&lt;br>&lt;br>Game visual design&lt;br>and game-play design&lt;br>&lt;b>Isidora Todorović&lt;/b>&lt;br>&lt;br>Game-play design and coding&lt;br>&lt;b>Luka Ranisavljević&lt;/b>&lt;br>&lt;br>Translation&lt;br>&lt;b>Jovan Kovačević&lt;/b>&lt;br>&lt;br>&lt;br>&lt;br>Legal information:&lt;br>&lt;br></string>
+    
+    <!-- INFO WINDOW -->
+    <string name="reward_unknown">\?</string>
+    <string name="happiness_reward_format">+%s%%</string>
+    <string name="happiness_reward_zero">0%</string>
+    <string name="money_reward_format">+%d</string>
+    <string name="money_reward_zero">0</string>
+    
+    <!-- GAME INTRO -->
+    <string name="game_introduction_text1">Today, thirteen years after <i>the changes</i>, our small country has much more options to offer than before. The hyperinflation has been swapped with debt slavery; the embargo gives way to free trading while we sprint towards the bright future of liberal market.</string>
+    <string name="game_introduction_text2">Certainly, the present is better than the past, so relax and enjoy One Good Day in Serbia.</string>
+    <string name="game_introduction_text3">You are in a corrupt country with devastated economy, lingering between the third and the first world. The communist past is behind you and the liberal capitalistic future is in the reach of your hand.</string>
+    <string name="game_introduction_text4">Your mission is to survive as long as you can in your environment, ideally to the age of 73, the expected life span in Serbia. To do so you need money and happiness both of which shouldn\'t drop to zero or else the game ends. You can monitor this information in the lower part of the screen.</string>
+    <string name="game_introduction_text5">Time is running out, so hurry up!\nGood luck with your survival!</string>
+    <string name="end_game_text">You have gone through a simulation of the One Good Day in Serbia experience.\nIf you haven\'t died of health problems and poverty, you have succeeded in reaching old age which is 73 years in Serbia!\nWe hope the experience of this simulation wasn\'t too traumatic for this is just a game, isn\'t it?</string>
+    <string name="next_button_text">next</string>
+
+    <!-- POPUP -->
+    <string name="enable_gps_title">Turn on GPS?</string>
+    <string name="enable_gps_prompt">For best gameplay experience, GPS should be enabled.\nDo you want to turn it on now?</string>
+    <string name="new_game_title">New game?</string>
+    <string name="new_game_prompt">Are you sure you want to start the game from the beginning?</string>
+    <string name="quit_title">Quit game?</string>
+    <string name="quit_prompt">Are you sure you want to quit?</string>
+    <string name="accept_button_text">accept</string>
+    <string name="decline_button_text">decline</string>
+    <string name="misson_button_text">quest</string>
+    <string name="end_quest_text">finish quest</string>
+    <string name="quick_action_button_text">task</string>
+    <string name="buy_button_text">buy</string>
+    <string name="sell_button_text">sell</string>
+    <string name="yes_button_text">yes</string>
+    <string name="no_button_text">no</string>
+    <string name="ok_button_text">OK</string>
+    <string name="popup_inventory_title">inventory</string>
+    <string name="popup_quest_log_title">quest log</string>
+    <string name="quest_in_progress">This quest is in progress.\nFor more information check the quest log.</string>
+    <string name="quest_done">This quest has finished.\nSeek your fortune elsewhere!</string>
+    <string name="quick_action_done">This task is finished.\nSeek your fortune elsewhere!</string>
+    <string name="no_items_in_inventory">You have no items in inventory.</string>
+    <string name="no_quests_in_log">No quests in log.</string>
+    
+    <!-- SHOP AND INVENTORY -->
+    <string name="item_name">item</string>
+    <string name="item_quantity">quantity</string>
+    <string name="item_price">price</string>
+    <string name="item_total">total</string>
+    <string name="item_total_format">= %1$,d</string>
+    <string name="item_quantity_separator">/</string>
+    <string name="no_items_to_buy">There are no items to buy at the moment.</string>
+    <string name="no_items_to_sell">You don\'t have any items to sell at the moment.</string>
+    <string name="not_enough_money">Not enough money.</string>
+    
+    <!-- QUEST LOG -->
+    <string name="quest_name">quest</string>
+    <string name="quest_ending_conditions">items</string>
+    <string name="quest_reward">reward</string>
+    
+    <!-- SHOPS -->
+    <string name="location_fence_name">fence</string>
+    <string name="location_fence_description" tools:ignore="Typos">Were you tailed?\nQuickly! Buy or sell, I don\'t wanna get busted for you.</string>
+    <string name="location_pharmacy_name">pharmacy</string>
+    <string name="location_pharmacy_description">Welcome to the pharmacy!\nPlease choose your own drug!</string>
+    <string name="location_shop_name">store</string>
+    <string name="location_shop_description">Welcome to the shop! Please choose the needed items in accordance with your spending power.\nIf something you need is not available here, please try at a different location or come back later.</string>
+
+    <!-- ITEMS -->
+    <string name="item_name_antibiotic">antibiotic</string>
+    <string name="item_name_blessing">blessing</string>
+    <string name="item_name_bottle">bottle</string>
+    <string name="item_name_brick">brick</string>
+    <string name="item_name_car">car</string>
+    <string name="item_name_certificate">diploma</string>
+    <string name="item_name_document">document</string>
+    <string name="item_name_fame">fame</string>
+    <string name="item_name_hammer">hammer</string>
+    <string name="item_name_id">id</string>
+    <string name="item_name_kidney">kidney</string>
+    <string name="item_name_looted_car">looted car</string>
+    <string name="item_name_party_membership">party membership</string>
+    <string name="item_name_saw">saw</string>
+    <string name="item_name_screwdriver">screwdriver</string>
+    <string name="item_name_sedative">sedative</string>
+    <string name="item_name_stolen_bike">stolen bike</string>
+    <string name="item_name_stolen_cable">stolen cable</string>
+    <string name="item_name_stolen_manhole">stolen manhole</string>
+    <string name="item_name_ticket">ticket</string>
+    <string name="item_name_video">video</string>
+    <string name="item_name_vote">vote</string>
+    
+    <!-- ITEMS INFO WINDOW -->
+    <string name="item_info_window_bottle">pick up a bottle</string>
+    <string name="item_info_window_brick">pick up a brick</string>
+    <string name="item_info_window_document">document</string>
+    <string name="item_info_window_fame">fame</string>
+    <string name="item_info_window_looted_car">loot this car</string>
+    <string name="item_info_window_party_membership">party membership</string>
+    <string name="item_info_window_stolen_bike">steal a bike</string>
+    <string name="item_info_window_stolen_cable">steal a cable</string>
+    <string name="item_info_window_stolen_manhole">steal a manhole</string>
+    <string name="item_info_window_video">pick up this video</string>
+    <string name="item_info_window_vote">collect this vote</string>
+    
+    <!-- ITEMS ADDED TO INVENTORY -->
+    <string name="item_added_bottle">bottle added to the inventory</string>
+    <string name="item_added_brick">brick added to the inventory</string>
+    <string name="item_added_document">document added to the inventory</string>
+    <string name="item_added_looted_car">you have looted a car</string>
+    <string name="item_added_stolen_bike">you have stolen a bike</string>
+    <string name="item_added_stolen_cable">you have stolen a cable</string>
+    <string name="item_added_stolen_manhole">you have stolen a manhole</string>
+    <string name="item_added_video">video added to the inventory</string>
+    <string name="item_added_vote">vote added to the inventory</string>
+    
+    <!-- RANDOM EVENTS -->
+    <string name="random_event_inflation_title">Inflation</string>
+    <string name="random_event_inflation_description" formatted="false">In unstable economies inflation comes often and unexpected.\nYou lose 5% of your hard earned money</string>
+    <string name="random_event_police_title">Show your ID</string>
+    <string name="random_event_police_description_no_id">Since you don\'t have your ID, please pay the fine of 1000 dinars.</string>
+    <string name="random_event_police_description_has_id">Because you are a responsible citizen and you have your ID, you won\'t be fined.</string>
+    <string name="random_event_thugs_title">Revenge</string>
+    <string name="random_event_thugs_description">Time for a revenge for messing with us and throwing bricks! Prepare to suffer!\nYour happiness drops by 30%.</string>
+
+    <!-- BUS STATION -->
+    <string name="bus_station_location_name" formatted="false">bus station</string>
+    <string name="bus_station_location_description" formatted="false">The pride of every city, the first thing every curious tourist can notice!\nOur bus station is full of friendly clerks willing to help, but only if you understand Serbian language.</string>
+    <string name="bus_station_quick_action_name" formatted="false">Buy a ticket</string>
+    <string name="bus_station_quick_action_description" formatted="false">You\'ve had enough and want to elope? Buy a ticket here for 100 dinars and forget all of your concerns!</string>
+    <string name="bus_station_quest_name" formatted="false">Be a Samaritan, repay a debt</string>
+    <string name="bus_station_quest_description" formatted="false">The newly built bus station deteriorates as the city owes it money!\nYour quest, like the Good Samaritan you are, is to collect 1300 dinars to pay off the debt.\nIf you are successful your happiness will increase by 30%.</string>
+    <string name="bus_station_quest_done" formatted="false">The debt has been repaid and your happiness has increased by 30%!</string>
+    <string name="bus_station_quest_done_hint" formatted="false">You now have enough money to pay off the debt to the bus station. You can do so in the quest log.</string>
+    <!-- CHURCH -->
+    <string name="church_location_name" formatted="false">Bishops palace</string>
+    <string name="church_location_description" formatted="false">In this predominantly Orthodox country religious icons are responsible for the morale and health of the nation, while blessings are a good way of maintaining good mental health.</string>
+    <string name="church_quick_action_name" formatted="false">Buy a blessing</string>
+    <string name="church_quick_action_description" formatted="false">True believers deserve true rewards! Be blessed and forgiveness is yours.\nFor only 500 dinars your happiness will increase by 10%.</string>
+    <string name="church_quest_name" formatted="false">The bishop\'s children</string>
+    <string name="church_quest_description" formatted="false">Bishops palace is a place of rest of the serene father. However, loud children are playing outside.\nYour quest is to disassemble the stage where the children play and sing so the serene father can continue with his rest.\nYou will need a hammer and a saw which can be bought in a store. When you have them in your inventory return here to disassemble the stage.\nYour happiness will increase by 20%.</string>
+    <string name="church_quest_done" formatted="false">Now that the stage is gone the serene father can rest and your happiness has increased by 20%!</string>
+    <string name="church_quest_missing_prerequisites">To disassemble the stage you need a hammer and a saw.</string>
+    <!-- HOSPITAL -->
+    <string name="hospital_location_name" formatted="false">hospital</string>
+    <string name="hospital_location_description" formatted="false">In a healthy body, a healthy mind, in a healthy society, healthy people!\nIf you have enough money don\'t worry about your health; if you have enough body parts, don\'t worry about money!</string>
+    <string name="hospital_quick_action_name" formatted="false">Sell your organ</string>
+    <string name="hospital_quick_action_description" formatted="false">If you sell your organ, you\'ll earn 1500 dinars. Be careful, the risk of infection is 50% and if you get sick your happiness decreases by 30%.\nIn case of an infection buy an antibiotic in the pharmacy.</string>
+    <string name="hospital_quick_action_infection_hint">Your organ donation has turned into an infection. Buy an antibiotic in the pharmacy!</string>
+    <string name="hospital_quest_name" formatted="false">Health insurance</string>
+    <string name="hospital_quest_description" formatted="false">Healthy people don\'t need health insurance. Are you feeling healthy enough?\nYour quest is to get health insurance card and for that you need to collect four documents.\nWith health insurance covered, your happiness will increase by 20%.</string>
+    <string name="hospital_quest_done" formatted="false">Now that you have your health insurance, you are feeling 20% happier!</string>
+    <!-- PARKING -->
+    <string name="parking_location_name" formatted="false">parking</string>
+    <string name="parking_location_description" formatted="false">In the land of used cards and vicious parking services your cuddly four-wheeler has become a financial burden.\nSweet torture of a car lover is becoming a bitter reality. Neglected, desecrated, unfed, your pet is dying slowly. Can you help it?</string>
+    <string name="parking_quick_action_name" formatted="false">Sell your car</string>
+    <string name="parking_quick_action_description" formatted="false">Given that your car is getting older, registration fees more expensive and you can\'t afford the petrol anyway, maybe selling it is for the best. You\'ll get a small but valuable amount of 500 dinars.</string>
+    <string name="parking_quest_name" formatted="false">To loot or not to loot</string>
+    <string name="parking_quest_description" formatted="false">It\'s better to steal than to get robbed!\nYour quest is to loot 10 cars. You\'ll need a hammer and a screwdriver; you can buy them in the store.\nIf you finish this quest you will earn 1000 dinars.</string>
+    <string name="parking_quest_done" formatted="false">There are all sorts of things to find by breaking into parked cars. You can now sell these items to a fence for a profit!\nKeep away from the police&#8230;</string>
+    <string name="parking_quest_missing_prerequisites">To break into a car you need a hammer and a screwdriver.</string>
+    <!-- POLICE STATION -->
+    <string name="police_station_location_name" formatted="false">police station</string>
+    <string name="police_station_location_description" formatted="false">The local police station is a place where one can obtain personal documents and report crime.\nOften both with little success.</string>
+    <string name="police_station_quick_action_name" formatted="false">The ID card</string>
+    <string name="police_station_quick_action_description" formatted="false">Every citizen is obliged to have an ID card! For just 500 dinars you won\'t have to be afraid of either side of the law.\nDo you want to get your ID?</string>
+    <string name="police_station_quest_name" formatted="false">He who waits&#8230;</string>
+    <string name="police_station_quest_description" formatted="false">Due to uncontrollable crowds a popular way of earning money is to wait in a queue as a service.\nYour quest is to wait here and for every minute spent you\'ll earn 50 dinars.\nBut take it easy, queuing can be quite boring!</string>
+    <string name="police_station_quest_done" formatted="false">Well then, one can\'t stand in the same place the whole day, can he?\nAt least now you have more money.</string>
+    <string name="police_station_quest_reward_text">You earned 50 dinars.</string>
+    <!-- SCHOOL -->
+    <string name="school_location_name" formatted="false">university</string>
+    <string name="school_location_description" formatted="false">Education is very important! For example, it is a known fact that no honest politicians can advance their careers without a diploma certifying their statesmanship skills.</string>
+    <string name="school_quick_action_name" formatted="false">Buy a diploma</string>
+    <string name="school_quick_action_description" formatted="false">Taking all these exams? Nonsense!\nA diploma costs 1500 dinars and may increase your money and happiness. It is also a useful item as it helps with other quests.</string>
+    <string name="school_quest_name" formatted="false">The showdown</string>
+    <string name="school_quest_description" formatted="false">A rival gang has stepped into your territory and you must retaliate!\nGather ten bottles and ten bricks, the brawl will be bloody!\nIf you finish this quest your happiness will increase by 20%.</string>
+    <string name="school_quest_done" formatted="false">Now that you can finally have your revenge, your happiness has increased by 20%!\nJust be careful for a possible repayment waiting around the corner.</string>
+    <!-- THEATRE -->
+    <string name="theatre_location_name" formatted="false">theatre</string>
+    <string name="theatre_location_description" formatted="false">New ages bring new creative people and ideas! Everybody has a chance to work in a cultural institution today, not just cynical cultural workers.\nTo become a theatre manager or a member of the board, it is enough for you to be a doorkeeper, a clerk or a star of a reality show.</string>
+    <string name="theatre_quick_action_name" formatted="false">Buy a ticket</string>
+    <string name="theatre_quick_action_description" formatted="false">By purchasing this ticket, you give your support to the growth of the culture in the city!\nThe ticket costs only 500 dinars! Your reward: happiness increase by 10%.</string>
+    <string name="theatre_quest_name" formatted="false">The chief executive</string>
+    <string name="theatre_quest_description" formatted="false">Culture is the pride of this small town and leading a cultural institution is a prestige matter!\nYour quest is to become the theatre\'s chief executive and for that to happen you need to graduate, to become a celebrity and a member of a political party.\nYour happiness will increase by 20%.</string>
+    <string name="theatre_quest_done" formatted="false">A diploma in hand, your face in the media and party membership in your pocket!\nYou are feeling 20% happier!</string>
+    <!-- TOWN HALL -->
+    <string name="town_hall_location_name" formatted="false">city assembly</string>
+    <string name="town_hall_location_description" formatted="false">Politics is an important cultural phenomenon here and an essential way of climbing the social ladder. Some dirty morale and a brilliant smile can open many doors!</string>
+    <string name="town_hall_quick_action_name" formatted="false">The party membership</string>
+    <string name="town_hall_quick_action_description" formatted="false">Political culture is in the spirit of one country and its people! Great leader creates a great nation, become part of it, join the party!\nThe membership costs 1000 dinars and may increase your money and happiness. It is also a useful item as it helps with other quests.</string>
+    <string name="town_hall_quest_name" formatted="false">The representative</string>
+    <string name="town_hall_quest_description" formatted="false">Every collected vote brings pure profit!\nYour quest is to collect five votes which will bring you 1000 dinars.</string>
+    <string name="town_hall_quest_done" formatted="false">It feels nice to be elected!\nEspecially when you get 1000 dinars for it!</string>
+    <!-- TV STATION -->
+    <string name="tv_station_location_name" formatted="false">tv station</string>
+    <string name="tv_station_location_description" formatted="false">Mass media is the only way to get your message across to everyone. Whether you are a celebrity or a politician, it will help you find your place under the sun!</string>
+    <string name="tv_station_quick_action_name" formatted="false">Buy fame</string>
+    <string name="tv_station_quick_action_description" formatted="false">A person without fame is no one. A society without famous people: sad picture! Join the privileged, buy your own fame!\nFame costs 1500 dinars and may increase your money and happiness. It is also a useful item as it helps with other quests.</string>
+    <string name="tv_station_quest_name" formatted="false">XXX video</string>
+    <string name="tv_station_quest_description" formatted="false">Honest media celebrities cannot forget their roots but it is good to cover some incriminating details from the past.\nYour quest is to hide a certain explicit video from the public by collecting all copies. Your happiness will increase by 20%.</string>
+    <string name="tv_station_quest_done" formatted="false">Now that your name is saved, your happiness has increased by 20%!</string>
+
+</resources>

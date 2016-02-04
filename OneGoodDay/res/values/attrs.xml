@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumericTextView">
+        <attr name="format" format="string" />
+        <attr name="valueScale" format="string" />
+    </declare-styleable>
+</resources>

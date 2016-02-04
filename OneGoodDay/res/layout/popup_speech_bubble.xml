@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="@dimen/popup_margin"
+    android:layout_marginLeft="@dimen/popup_margin"
+    android:layout_marginRight="@dimen/popup_margin" >
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/locationDescription"
+        style="@style/popup_text"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/speech_bubble_background"
+        android:gravity="center"
+        android:maxLines="10"
+        android:minLines="8"
+        android:paddingBottom="24dp"
+        android:paddingLeft="@dimen/popup_text_padding"
+        android:paddingRight="@dimen/popup_text_padding"
+        android:paddingTop="@dimen/popup_text_padding"
+        android:text="@string/hospital_location_description" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationDescription"
+        android:layout_marginRight="-7dp"
+        android:layout_marginTop="-7dp"
+        android:layout_toLeftOf="@+id/actorImage"
+        android:src="@drawable/popup_root"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@id/actorImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/locationDescription"
+        android:layout_below="@id/locationDescription"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/actor_hospital"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

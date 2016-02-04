@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/popup_margin"
+    android:layout_marginLeft="@dimen/popup_margin_small"
+    android:layout_marginRight="@dimen/popup_margin_small"
+    android:layout_marginTop="@dimen/popup_margin"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_table_header_height"
+        android:gravity="center" >
+
+        <com.hmc.onegoodday.widgets.OgdTextView
+            style="@style/items_header"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/item_name" />
+
+        <com.hmc.onegoodday.widgets.OgdTextView
+            style="@style/items_header"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/popup_table_header_cell_spacing"
+            android:layout_weight="1"
+            android:text="@string/item_quantity" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/inventoryItemsScroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/items_vertical_scroller" >
+
+        <TableLayout
+            android:id="@+id/inventoryItemsContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" />
+    </ScrollView>
+
+</LinearLayout>

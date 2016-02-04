@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="do_not_show">NEVER SHOWN TO THE USER</string>
+    <string name="app_name">One Good Day</string>    
+    <string name="checkboxText">X</string>
+    <string name="location_not_available">Trenutna lokacija nije dostupna</string>
+    
+    <!-- MENU -->
+    <string name="menu_about">O igri</string>
+    <string name="menu_help">Pomoć</string>
+    <string name="menu_inventory">Inventar</string>
+    <string name="menu_my_location">Gde sam?</string>
+    <string name="menu_new_game">Nova igra</string>
+    <string name="menu_quest_log">Dnevnik misija</string>
+    <string name="menu_settings">Podešavanja</string>
+
+    <string name="new_game">Nova igra</string>
+    <string name="exit_game">Kraj</string>
+    
+    <string name="about">&lt;b>Les Mislerebles&lt;/b> su neformalna umetnička grupa iz Srbije koja je posvećena stvaranju digitalnih igara posvećenih socijalnoj promeni. Les Mislerebles su zainteresovani za istraživanje, rad sa i komentar na socio-ekonomske teme vezane za neprivilegovane slojeve društva, kao i teme vezane za geopolitiku i ekologiju. Les Mislerebles se koriste mikro-političkim i mikro-socijalnim praksama primenjujući u isto vreme nove estetske i analitičke metode u svom izrazu. Radeći sa društvenim i digitalnim igrama Les Mislerebles daju subverzivne kritičke komentare koji se poigravaju sa idejama o očekivanim ishodima.&lt;br>&lt;br>&lt;br>Vizuelni dizajn i dizajn igre&lt;br>&lt;b>Isidora Todorović&lt;/b>&lt;br>&lt;br>Dizajn igre i programiranje&lt;br>&lt;b>Luka Ranisavljević&lt;/b>&lt;br>&lt;br>Prevod&lt;br>&lt;b>Jovan Kovačević&lt;/b>&lt;br>&lt;br>&lt;br>&lt;br>Legal information:&lt;br>&lt;br></string>
+        
+    <!-- INFO WINDOW -->
+    <string name="reward_unknown">\?</string>
+    <string name="happiness_reward_format">+%s%%</string>
+    <string name="happiness_reward_zero">0%</string>
+    <string name="money_reward_format">+%d</string>
+    <string name="money_reward_zero">0</string>
+    
+    <!-- GAME INTRO -->
+    <string name="game_introduction_text1">Danas trinaest godina posle <i>promena</i>, naša mala zemlja nudi ti mnogo više opcija nego pre. Hiperinflaciju menja kreditno ropstvo, embargo ustupa mesto slobodnoj trgovini dok hrlimo ka svetloj budućnosti slobodnog, liberalizovanog tržišta.</string>
+    <string name="game_introduction_text2">Danas je svakako bolje nego juče, zato se opusti i uživaj provodeći jedan dobar dan u Srbiji!</string>
+    <string name="game_introduction_text3">Nalaziš se u korumpiranoj i ekonomski devastiranoj zemlji, između prvog i trećeg sveta. Iza tebe je komunistička prošlost, a na dohvat ruke nestabilna liberalno-kapitalistička budućnost.</string>
+    <string name="game_introduction_text4">Tvoja misija je da preživiš što duže u svom okruženju, idealno da doživiš 73 godine, što je prosečni životni vek u Srbiji. U tome ti pomažu novac i sreća koji ne smeju da se spuste ispod nule, jer se u tom slučaju igra za tebe završava. Sve ove informacije možeš da vidiš u donjem delu ekrana.</string>
+    <string name="game_introduction_text5">Vreme ti ističe, zato požuri!\nSrećno u preživljavanju!</string>
+    <string name="end_game_text">Prošao si kroz simulirano iskustvo jednog dobrog dana u Srbiji.\nUkoliko nisi umro usled zdravstvanih problema ili besparice, uspeo si da doživiš duboku starost, što je u Srbiji 73 godine!\nNadamo se da iskustvo ove simulacije nije bilo isuviše traumatično, jer ovo je ipak samo igra, zar ne?</string>
+    <string name="next_button_text">dalje</string>
+
+    <!-- POPUP -->
+    <string name="enable_gps_title">Uključi GPS?</string>
+    <string name="enable_gps_prompt">Za najbolji doživljaj uključi GPS!\nDa li želiš da to sada uradiš?</string>
+    <string name="new_game_title">Nova igra?</string>
+    <string name="new_game_prompt">Da li stvarno želiš da počneš igru od početka?</string>
+    <string name="quit_title">Kraj igre?</string>
+    <string name="quit_prompt">Da li stvarno želiš da izađeš iz igre?</string>
+    <string name="accept_button_text">prihvati</string>
+    <string name="decline_button_text">odustani</string>
+    <string name="misson_button_text">misija</string>
+    <string name="end_quest_text">završi misiju</string>
+    <string name="quick_action_button_text">zadatak</string>
+    <string name="buy_button_text">kupi</string>
+    <string name="sell_button_text">prodaj</string>
+    <string name="yes_button_text">da</string>
+    <string name="no_button_text">ne</string>
+    <string name="ok_button_text">OK</string>
+    <string name="popup_inventory_title">inventar</string>
+    <string name="popup_quest_log_title">dnevnik misija</string>
+    <string name="quest_in_progress">Ova misija je u toku.\nZa više informacija pogledaj dnevnik misija.</string>
+    <string name="quest_done">Ova misiju si završio.\nPotraži sreću na drugom mestu!</string>
+    <string name="quick_action_done">Ovaj zadatak si uradio.\nPotraži sreću na drugom mestu!</string>
+    <string name="no_items_in_inventory">Trenutno nemaš ništa u inventaru.</string>
+    <string name="no_quests_in_log">Nijedna misija nije u toku.</string>
+    
+    <!-- SHOP AND INVENTORY -->
+    <string name="item_name">predmet</string>
+    <string name="item_quantity">količina</string>
+    <string name="item_price">cena</string>
+    <string name="item_total">ukupno</string>
+    <string name="item_total_format">= %1$,d</string>
+    <string name="item_quantity_separator">/</string>
+    <string name="no_items_to_buy">Trenutno ne možeš ništa da kupiš.</string>
+    <string name="no_items_to_sell">Trenutno nemaš ništa da prodaš.</string>
+    <string name="not_enough_money">Nemaš dovoljno novca.</string>
+    
+    <!-- QUEST LOG -->
+    <string name="quest_name">misija</string>
+    <string name="quest_ending_conditions">predmeti</string>
+    <string name="quest_reward">nagrada</string>
+    
+    <!-- SHOPS -->
+    <string name="location_fence_name">preprodavac</string>
+    <string name="location_fence_description">Da li te je neko pratio?\nBrzo! Biraj šta kupuješ ili prodaješ, nemam nameru da stradam zbog tvog neopreza.</string>
+    <string name="location_pharmacy_name">apoteka</string>
+    <string name="location_pharmacy_description">Dobrodošao u apoteku!\nIzaberi svoj medikament!</string>
+    <string name="location_shop_name">prodavnica</string>
+    <string name="location_shop_description">Dobrodošao u prodavnicu! Izaberi potrebne artikle naspram svoje kupovne moći.\nAko nešto nemamo, pokušaj na drugoj lokaciji ili dođi kasnije.</string>
+
+    <!-- ITEMS -->
+    <string name="item_name_antibiotic">antibiotik</string>
+    <string name="item_name_blessing">blagoslov</string>
+    <string name="item_name_bottle">flaša</string>
+    <string name="item_name_brick">cigla</string>
+    <string name="item_name_car">automobil</string>
+    <string name="item_name_certificate">diploma</string>
+    <string name="item_name_document">dokument</string>
+    <string name="item_name_fame">slava</string>
+    <string name="item_name_hammer">čekić</string>
+    <string name="item_name_id">lična karta</string>
+    <string name="item_name_kidney">bubreg</string>
+    <string name="item_name_looted_car">obijeni automobil</string>
+    <string name="item_name_party_membership">partijska knjižica</string>
+    <string name="item_name_saw">testera</string>
+    <string name="item_name_screwdriver">šrafciger</string>
+    <string name="item_name_sedative">sedativ</string>
+    <string name="item_name_stolen_bike">ukradeni bicikl</string>
+    <string name="item_name_stolen_cable">ukradeni kabel</string>
+    <string name="item_name_stolen_manhole">ukradeni šaht</string>
+    <string name="item_name_ticket">ulaznica</string>
+    <string name="item_name_video">snimak</string>
+    <string name="item_name_vote">glas</string>
+    
+    <!-- ITEMS INFO WINDOW -->
+    <string name="item_info_window_bottle">pokupi flašu</string>
+    <string name="item_info_window_brick">pokupi ciglu</string>
+    <string name="item_info_window_document">dokument</string>
+    <string name="item_info_window_fame">slava</string>
+    <string name="item_info_window_looted_car">obij automobil</string>
+    <string name="item_info_window_party_membership">partijska knjižica</string>
+    <string name="item_info_window_stolen_bike">ukradi bicikl</string>
+    <string name="item_info_window_stolen_cable">ukradi kabel</string>
+    <string name="item_info_window_stolen_manhole">ukradi šaht</string>
+    <string name="item_info_window_video">sakupi snimak</string>
+    <string name="item_info_window_vote">sakupi glas</string>
+    
+    <!-- ITEMS ADDED TO INVENTORY -->
+    <string name="item_added_bottle">našao si flašu</string>
+    <string name="item_added_brick">našao si ciglu</string>
+    <string name="item_added_document">sakupio si dokument</string>
+    <string name="item_added_looted_car">obio si automobil</string>
+    <string name="item_added_stolen_bike">ukrao si bicikl</string>
+    <string name="item_added_stolen_cable">ukrao si kabel</string>
+    <string name="item_added_stolen_manhole">ukrao si šaht</string>
+    <string name="item_added_video">našao si snimak</string>
+    <string name="item_added_vote">sakupio si glas</string>
+    
+    <!-- RANDOM EVENTS -->
+    <string name="random_event_inflation_title">Inflacija</string>
+    <string name="random_event_inflation_description" formatted="false">U nestabilnim ekonomijama inflacija je česta pojava.\nGubiš 5% svog teško zarađenog novca.</string>
+    <string name="random_event_police_title">Legitimisanje</string>
+    <string name="random_event_police_description_no_id">S obzirom da nemaš ličnu kartu, moraš da platiš kaznu od 1000 dinara.</string>
+    <string name="random_event_police_description_has_id">Kao svi odgovorni građani i ti poseduješ ličnu kartu, pa ne plaćaš kaznu za neposedovanje ličnih dokumenata.</string>
+    <string name="random_event_thugs_title">Osveta</string>
+    <string name="random_event_thugs_description">Vreme je za revanš za one flaše i cigle! Sleduju ti batine!\nTvoja sreća pada za 30%.</string>
+
+    <!-- BUS STATION -->
+    <string name="bus_station_location_name" formatted="false">autobuska stanica</string>
+    <string name="bus_station_location_description" formatted="false">Ponos svakog grada, prva stvar koju uoči svaki znatiželjni turista!\nNaša autobuska stanica je puna ljubaznih službenica spremnih da pomognu ako razumete srpski jezik.</string>
+    <string name="bus_station_quick_action_name" formatted="false">Kupi kartu</string>
+    <string name="bus_station_quick_action_description" formatted="false">Dosta ti je svega i želiš da emigriraš? Kupi kartu odavde za 100 dinara i oslobodi se briga!</string>
+    <string name="bus_station_quest_name" formatted="false">Budi Samarićanin, otplati dug</string>
+    <string name="bus_station_quest_description" formatted="false">Novoizgrađena autobuska stanica propada dok joj grad duguje pare!\nTvoja misija, kao dobrog Samarićanina, je da sakupiš 1300 dinara da bi otplatio dug grada stanici. Ukoliko u tome uspeš tvoja sreća će porasti za 30%.</string>
+    <string name="bus_station_quest_done" formatted="false">Izmirio si dug, a tvoja sreća se povećala za 30%!</string>
+    <string name="bus_station_quest_done_hint" formatted="false">Sada imaš dovoljno novca da otplatiš dug stanici. To možeš da uradiš u dnevniku misija.</string>
+    <!-- CHURCH -->
+    <string name="church_location_name" formatted="false">Vladičanski dvor</string>
+    <string name="church_location_description" formatted="false">U ovoj dominantno pravoslavnoj sredini verske ikone su zaslužne za moral i zdravlje cele nacije, dok su blagoslovi dobar način održavanja mentalnog zdravlja.</string>
+    <string name="church_quick_action_name" formatted="false">Kupi glaboslov</string>
+    <string name="church_quick_action_description" formatted="false">Pravi vernici zaslužuju prave nagrade! Primi blagoslov i oproštaj je tvoj.\nZa samo 500 dinara tvoja sreća će porasti za 10%.</string>
+    <string name="church_quest_name" formatted="false">Vladikina deca</string>
+    <string name="church_quest_description" formatted="false">Vladičanski dvor je mesto odmora presvetlog oca. Međutim ispred njega se sakupljaju glasna deca.\nTvoja misija je da rastaviš binu na kojoj se deca igraju i pevaju kako bi presvetli otac mogao da nastavi sa svojim odmorom.\nZa to su ti potrebni čekić i testera koje možeš da kupiš u prodavnici. Kada ih kupiš, vrati se na ovu lokaciju da rastaviš binu.\nUkoliko u tome uspeš tvoja sreća će se povećati za 20%.</string>
+    <string name="church_quest_done" formatted="false">Sada kada je bina rasformirana presvetli otac može mirno da odmara, a tvoja sreća se povećala za 20%!</string>
+    <string name="church_quest_missing_prerequisites">Da rastaviš binu potrebni su ti čekić i testera.</string>
+    <!-- HOSPITAL -->
+    <string name="hospital_location_name" formatted="false">bolnica</string>
+    <string name="hospital_location_description" formatted="false">U zdravom telu, zdrav duh, u zdravom društvu, zdravi ljudi!\nAko imaš dovoljno novca ne brini za zdravlje, ako imaš dovoljno organa ne brini za novac!</string>
+    <string name="hospital_quick_action_name" formatted="false">Prodaj organ</string>
+    <string name="hospital_quick_action_description" formatted="false">Ukoliko prodaš organ, zaradićeš 1500 dinara. Pažljivo, rizik od infekcije je 50%, ako se razboliš tvoja sreća pada za 30%.\nU slučaju infekcije, kupi antibiotik u apoteci.</string>
+    <string name="hospital_quick_action_infection_hint">Tvoja donacija organa je završila infekcijom. Potraži antibiotik u apoteci!</string>
+    <string name="hospital_quest_name" formatted="false">Overi knjižicu</string>
+    <string name="hospital_quest_description" formatted="false">Zdravim ljudima knjižica ne treba. Da li se i ti osećaš dovoljno zdravo?\nTvoja misija je da overiš svoju zdravstvenu knjižicu, a za to je potrebno da sakupiš četiri dokumenta.\nUz overenu knjižicu tvoja sreća će se povećati za 20%.</string>
+    <string name="hospital_quest_done" formatted="false">Sada kada je knjižica overena, osećaš se čak 20% srećnije!</string>
+    <!-- PARKING -->
+    <string name="parking_location_name" formatted="false">parking</string>
+    <string name="parking_location_description" formatted="false">U zemlji polovnih automobila i zlih parking servisa tvoj umiljati četvorotočkaš postaje finansijska omča. Slatke muke auto-ljubitelju postaju gorka realnost. Zapušten, oskrnavljen, nenahranjen, tvoj ljubimac polako umire.\nMožeš li mu pomoći?</string>
+    <string name="parking_quick_action_name" formatted="false">Prodaj kola</string>
+    <string name="parking_quick_action_description" formatted="false">S obzirom da je tvoj automobil sve stariji, registracija sve skuplja, a para za benzin svakako nemaš, možda je najbolje da ga prodaš. Dobićeš malu, ali vrednu sumu od 500 dinara.</string>
+    <string name="parking_quest_name" formatted="false">(O)biti ili ne (o)biti</string>
+    <string name="parking_quest_description" formatted="false">Isplativije je obiti nego biti obijan!\nTvoja misija je da obiješ 10 automobila. Za to je potrebno da poseduješ čekić i šrafciger koje možeš da kupiš u prodavnici.\nUkoliko završiš misiju zaradićeš 1000 dinara.</string>
+    <string name="parking_quest_done" formatted="false">Obijanjem parkiranih automobila može svašta da se pronađe. A te predmete sada možeš da preprodaš i zaradiš novac!\nSamo se čuvaj policije&#8230;</string>
+    <string name="parking_quest_missing_prerequisites">Da bi obio auto potrebni su ti čekić i šrafciger.</string>
+    <!-- POLICE STATION -->
+    <string name="police_station_location_name" formatted="false">policijska stanica</string>
+    <string name="police_station_location_description" formatted="false">Lokalna policijska stanica je mesto gde se izrađuju lični dokumenti i prijavljuju krađe.\nČesto obe radnje veoma bezuspešno.</string>
+    <string name="police_station_quick_action_name" formatted="false">Lična karta</string>
+    <string name="police_station_quick_action_description" formatted="false">Svaki građanin je dužan da poseduje ličnu kartu! Za samo 500 dinara, više ne moraš da se bojiš bilo koje strane zakona.\nDa li želiš da izvadiš ličnu kartu?</string>
+    <string name="police_station_quest_name" formatted="false">Ko čeka, dočeka</string>
+    <string name="police_station_quest_description" formatted="false">Usled nekontrolisanih gužvi popularan način za zarađivanje novca je uslužno čekanje u redu.\nTvoja misija je da stojiš na ovom mestu i za svaki minut koji provedeš ovde zaradićeš 50 dinara.\nSamo bez preterivanja, čekanje u redu ume da bude veoma dosadno!</string>
+    <string name="police_station_quest_done" formatted="false">Pa dobro, ne može ni ceo dan da se stoji u mestu, zar ne?\nMakar sad imaš malo više novca.</string>
+    <string name="police_station_quest_reward_text">Zaradio si 50 dinara.</string>
+    <!-- SCHOOL -->
+    <string name="school_location_name" formatted="false">fakultet</string>
+    <string name="school_location_description" formatted="false">Obrazovanje je veoma bitno! Na primer, poznato je da nijedan pošteni političar ne može da napreduje u karijeri bez diplome koja potvrđuje njegove državničke sposobnosti.</string>
+    <string name="school_quick_action_name" formatted="false">Kupi diplomu</string>
+    <string name="school_quick_action_description" formatted="false">Polagati sve te ispite? Besmisleno!\nDiploma košta 1500 dinara i može da poveća tvoju sreću i novac, a korisno ju je imati, jer pomaže kod drugih misija.</string>
+    <string name="school_quest_name" formatted="false">Obračun</string>
+    <string name="school_quest_description" formatted="false">Suparnička navijačka banda je došla na tvoju teritoriju i potrebno ju je odbraniti!\nSakupi deset flaša i deset cigala, obračun će biti krvav!\nUkoliko završiš misiju tvoja sreća će porasti za 20%.</string>
+    <string name="school_quest_done" formatted="false">Sada kad konačno možeš da se obračunaš sa suparnicima tvoja sreća se povećala za 20%!\nSamo pazi da te neko ne sačeka iza ćoška.</string>
+    <!-- THEATRE -->
+    <string name="theatre_location_name" formatted="false">pozorište</string>
+    <string name="theatre_location_description" formatted="false">Novo vreme donosi nove kreativne ljude i ideje! Danas svako ima šansu da radi u kulturnoj ustanovi, ne samo cinični kulturni radnici.\nDa postaneš direktor pozorišta ili član upravnog odbora dovoljno je da si portir, kafe-kuvarica ili zvezda reality show-a.</string>
+    <string name="theatre_quick_action_name" formatted="false">Kupi ulaznicu</string>
+    <string name="theatre_quick_action_description" formatted="false">Kupovinom ove ulaznice, daješ svoj doprinos razvoju kulture u gradu!\nUlaznica košta samo 500 dinara! Tvoja nagrada: sreća raste za 10%.</string>
+    <string name="theatre_quest_name" formatted="false">Postani direktor</string>
+    <string name="theatre_quest_description" formatted="false">Kultura je ponos ovog malog grada, a voditi jednu kulturnu ustanovu je veliki prestiž!\nTvoja misija je da postaneš direktor, a da bi se to dogodilo potrebno je da diplomiraš, da se proslaviš i učlaniš u stranku.\nKada to uradiš tvoje sreća će porasti za 20%.</string>
+    <string name="theatre_quest_done" formatted="false">Diploma je u ruci, tvoj lik u medijima, a partijska knjižica u džepu!\nOsećaš se 20% srećnije!</string>
+    <!-- TOWN HALL -->
+    <string name="town_hall_location_name" formatted="false">skupština grada</string>
+    <string name="town_hall_location_description" formatted="false">Ovde je politika značajan kulturološki fenomen i nezaobilazan način za napredovanje na društvenoj lestvici. Malo prljavog morala i sjajnog osmeha može da otvori mnoga vrata!</string>
+    <string name="town_hall_quick_action_name" formatted="false">Učlani se u stranku</string>
+    <string name="town_hall_quick_action_description" formatted="false">Politička kultura je duh jednog naroda! Veliki vođa stvara veliku naciju, postani deo nje, učlani se u partiju!\nČlanarina košta 1000 dinara i može da poveća tvoju sreću i novac, a korisno ju je imati, jer pomaže kod drugih misija.</string>
+    <string name="town_hall_quest_name" formatted="false">Narodni poslanik</string>
+    <string name="town_hall_quest_description" formatted="false">Svaki izborni glas donosi čist profit!\nTvoja misija je da sakupiš pet glasova čime ćeš zaraditi 1000 dinara.</string>
+    <string name="town_hall_quest_done" formatted="false">Baš je lepo biti izabran!\nA pogotovo kad za to dobiješ i 1000 dinara!</string>
+    <!-- TV STATION -->
+    <string name="tv_station_location_name" formatted="false">televizija</string>
+    <string name="tv_station_location_description" formatted="false">Masovni mediji su jedini način da svako sasluša tvoju poruku. Bilo da si estradna zvezda ili se baviš politikom, ovde ćeš naći svoje mesto pod suncem!</string>
+    <string name="tv_station_quick_action_name" formatted="false">Kupi slavu</string>
+    <string name="tv_station_quick_action_description" formatted="false">Čovek bez slave kao i da ne postoji. Društvo bez slavnih: tužna slika! Pridruži se privilegovanima, kupi slavu!\nSlava košta 1500 dinara i može da poveća tvoju sreću i novac, a korisno ju je imati, jer pomaže kod drugih misija.</string>
+    <string name="tv_station_quest_name" formatted="false">XXX snimak</string>
+    <string name="tv_station_quest_description" formatted="false">Poštena medijska zvezda ne može da zaobiđe svoje korene, ali ponekad je korisno sakriti neke inkriminirajuće detalje.\nTvoja misija je da sakriješ od javnosti izvesni eksplicitni snimak, tako što ćeš sakupiti sve kopije, a tvoja sreća će porasti za 20%.</string>
+    <string name="tv_station_quest_done" formatted="false">Sada kada je tvoj ugled sačuvan i tvoja sreća se povećala za 20%!</string>
+
+</resources>

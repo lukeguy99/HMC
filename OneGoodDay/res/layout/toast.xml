@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toastLayoutRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/toast_margin"
+        android:layout_marginRight="@dimen/toast_margin"
+        android:background="@drawable/infobar_background"
+        android:padding="8dp"
+        tools:ignore="UselessParent" >
+
+        <com.hmc.onegoodday.widgets.OgdTextView
+            android:id="@+id/toastText"
+            style="@style/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SAMPLE\nSecond row that is longer"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

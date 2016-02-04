@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Can you feel the oil spill?</string>
+    <string name="title_activity_main">Can you feel the oil spill?</string>
+    <string name="title_activity_end_game">Game end</string>
+    <string name="next">Next</string>
+    <string name="quit_prompt">Close app</string>
+    <string name="quit_message">Are you sure you want to quit?</string>
+    <string name="close">Close</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="play_again">Play again</string>
+    <string name="exit">Exit</string>
+    <string name="enable_gps_title">Enable GPS?</string>
+    <string name="enable_gps_prompt">For best gameplay experience, please enable GPS location tracking.\nWould you like to do that now?</string>
+    <string name="introduction">You are visiting your friend in the Curonian spit. While sunbathing at the local Nida beach you notice something unusual - an explosion in not so distant coastline. Then a black ooze spreading trough the sea towards the beach. Oh no!!! The oil platform only 6 km from the beach has exploded and oil is spreading rapidly. And here the damage can be great because sea self-cleaning is slower in cold seas! As a concerned citizen your mission is to find all the spilled oil and collect it. With all the sea currents and winds your time is very limited, so be careful that it doesn\'t run out!\nOn the map you can find the nearest oil spot. Go toward it! Good luck with your mission!</string>
+    <string name="location_description_placeholder">NOT SHOWN TO THE USER</string>
+    <string name="location_description_collected_oil">Great, you have collected some oil! Go to the next spill to continue your mission!</string>
+    <string name="location_description_wind_change">Oh no, the wind is changing direction and speeding up the pollution! There is even more oil to collect! But don\'t give up, go to the next spill to continue your mission!</string>
+    <string name="location_description_helping_seals">Look at all those poor animals&#8230; They are in danger of hypothermia and starvation, you must help them! But helping animals takes time and your time is running out. So you will lose some time on this noble cause. But don\'t give up, go to the next spill to continue your mission!</string>
+    <string name="location_description_new_sponge">Fun fact: hair absorbs oil, so it can be used as a means to clean up oily beaches. Not so fun fact: to collect and process hair into oil soaking mats, you need time and you just run out of the mats! You will lose some time collecting new hair. But don\'t give up, go to the next spill to continue your mission!</string>
+    <string name="game_end_lose">On no, the time has run out and the oil spread is too big! Look at all the dead animals covered in black ooze, this is horrifying! But don\'t be too distressed I am sure the company response for this would pay reparations, they always do, don\'t they?</string>
+    <string name="game_end_win">Congratulations! You have successfully collected all the oil before it spread! And because of your work all the sea life is safe until the next spill. Let\'s just hope the next time you are as successful.</string>
+    <string name="time_format" formatted="false">%d:%02d:%02d</string>
+    <string name="total_oil_format" formatted="false">%d l</string>
+    <string name="collected_oil_format" formatted="false">%d l</string>    
+    <string name="nearest_distance_format" formatted="false">%d m</string>    
+    <string name="nearest_distance_max_format" formatted="false">>%d m</string>
+
+</resources>

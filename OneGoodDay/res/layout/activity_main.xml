@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hmc="http://schemas.android.com/apk/res/com.hmc.onegoodday"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/infoBar"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:src="@drawable/logo_small_map_rainbow_shadow"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@id/infoBar"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/infobar_background"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+
+        <LinearLayout
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom" >
+
+            <com.hmc.onegoodday.widgets.NumericTextView
+                android:id="@+id/playerHappiness"
+                style="@style/status_bar_numeric_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/happiness_list"
+                android:text="100"
+                hmc:format="%d%%"
+                hmc:valueScale="20,80"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom|center" >
+
+            <com.hmc.onegoodday.widgets.NumericTextView
+                android:id="@+id/playerMoney"
+                style="@style/status_bar_numeric_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/money_list"
+                android:text="0"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom" >
+
+            <com.hmc.onegoodday.widgets.NumericTextView
+                android:id="@+id/playerAge"
+                style="@style/status_bar_numeric_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/age_list"
+                android:text="0"
+                hmc:valueScale="20,60"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/menu_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="9dp"
+            android:background="@drawable/menu_background" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/menu_item_height" >
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                style="@style/menu_button"
+                android:id="@+id/menuButtonInventory"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onMenuButtonClick"
+                android:text="@string/menu_inventory" />
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                style="@style/menu_button"
+                android:id="@+id/menuButtonQuestLog"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onMenuButtonClick"
+                android:text="@string/menu_quest_log" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/menu_item_height" >
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                style="@style/menu_button"
+                android:id="@+id/menuButtonMyLocation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onMenuButtonClick"
+                android:text="@string/menu_my_location" />
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                style="@style/menu_button"
+                android:id="@+id/menuButtonNewGame"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onMenuButtonClick"
+                android:text="@string/menu_new_game" />
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                style="@style/menu_button"
+                android:id="@+id/menuButtonAbout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onMenuButtonClick"
+                android:text="@string/menu_about" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

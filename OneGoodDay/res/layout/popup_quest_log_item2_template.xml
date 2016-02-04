@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    style="@style/table_row"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/popup_table_row_height"
+    android:layout_gravity="center" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginRight="@dimen/drawable_padding"
+        android:src="@drawable/quest_theatre"
+        tools:ignore="ContentDescription" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/name"
+        style="@style/small_text"
+        android:layout_marginRight="@dimen/popup_quest_name_spacing"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:text="skupština grada"
+        tools:ignore="HardcodedText" />
+
+    <TableLayout
+        android:layout_width="@dimen/popup_quest_ending_conditions_width"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <TableRow
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/popup_quest_ending_conditions_spacing"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/endingConditions1Image"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/drawable_padding"
+                android:src="@drawable/item_fame"
+                tools:ignore="ContentDescription" />
+
+            <com.hmc.onegoodday.widgets.OgdTextView
+                android:id="@+id/endingConditions1ActualQuantity"
+                style="@style/small_text"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="0"
+                tools:ignore="HardcodedText" />
+
+            <com.hmc.onegoodday.widgets.OgdTextView
+                style="@style/small_text"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/item_quantity_separator" />
+
+            <com.hmc.onegoodday.widgets.OgdTextView
+                android:id="@+id/endingConditions1RequiredQuantity"
+                style="@style/small_text"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="1"
+                tools:ignore="HardcodedText" />
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/endingConditions2Image"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/drawable_padding"
+                android:src="@drawable/item_party_membership"
+                tools:ignore="ContentDescription" />
+
+            <com.hmc.onegoodday.widgets.OgdTextView
+                android:id="@+id/endingConditions2ActualQuantity"
+                style="@style/small_text"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="1"
+                tools:ignore="HardcodedText" />
+
+            <com.hmc.onegoodday.widgets.OgdTextView
+                style="@style/small_text"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/item_quantity_separator" />
+
+            <com.hmc.onegoodday.widgets.OgdTextView
+                android:id="@+id/endingConditions2RequiredQuantity"
+                style="@style/small_text"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="1"
+                tools:ignore="HardcodedText" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/rewardImage"
+        android:layout_marginLeft="@dimen/popup_quest_reward_spacing"
+        android:layout_marginRight="@dimen/drawable_padding"
+        android:src="@drawable/item_money"
+        tools:ignore="ContentDescription" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/reward"
+        style="@style/small_text"
+        android:layout_width="@dimen/popup_quest_reward_width"
+        android:gravity="center"
+        android:text="1000"
+        tools:ignore="HardcodedText" />
+
+</TableRow>

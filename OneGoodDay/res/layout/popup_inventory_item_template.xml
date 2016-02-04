@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/popup_table_row_height"
+    android:layout_gravity="center"
+    style="@style/table_row" >
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_marginRight="@dimen/drawable_padding"
+        android:src="@drawable/item_bottle"
+        tools:ignore="ContentDescription" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/itemName"
+        style="@style/small_text"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:text="knjizica"
+        tools:ignore="HardcodedText" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/itemQuantity"
+        style="@style/small_text"
+        android:gravity="right"
+        android:layout_marginRight="@dimen/popup_inventory_quantity_margin"
+        android:text="100"
+        tools:ignore="HardcodedText" />
+
+</TableRow>

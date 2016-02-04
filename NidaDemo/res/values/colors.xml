@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="intro_activity_background">#FF000000</color>
+    <color name="game_name_text">#FFFFFFFF</color>
+    <color name="popup_background">#FF000000</color>
+    <color name="popup_text">#FFFFFFFF</color>
+    <color name="status_bar_text">#FF000000</color>
+    <color name="status_bar_text_shadow">#CCFFFFFF</color>
+</resources>

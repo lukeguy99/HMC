@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/intro_background"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dialog_background"
+        android:orientation="vertical" >
+
+        <com.hmc.onegoodday.widgets.UpperCaseTextView
+            style="@style/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/title_background"
+            android:drawableLeft="@drawable/logo_small"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:paddingRight="16dp"
+            android:text="@string/app_name" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="20dp" >
+
+            <TableRow android:layout_marginBottom="36dp" >
+
+                <ImageView
+                    android:id="@+id/playerMaleImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:onClick="onGenderClick"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/player_male"
+                    tools:ignore="ContentDescription" />
+
+                <com.hmc.onegoodday.widgets.OgdButton
+                    android:id="@+id/playerMaleButton"
+                    style="@style/popup_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginRight="16dp"
+                    android:onClick="onGenderClick"
+                    android:width="36dp" />
+
+                <ImageView
+                    android:id="@+id/playerFemaleImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onGenderClick"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/player_female"
+                    tools:ignore="ContentDescription" />
+
+                <com.hmc.onegoodday.widgets.OgdButton
+                    android:id="@+id/playerFemaleButton"
+                    style="@style/popup_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:onClick="onGenderClick"
+                    android:width="36dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/languageSerbianImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onLanguageClick"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/language_serbian"
+                    tools:ignore="ContentDescription" />
+
+                <com.hmc.onegoodday.widgets.OgdButton
+                    android:id="@+id/languageSerbianButton"
+                    style="@style/popup_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginRight="16dp"
+                    android:onClick="onLanguageClick"
+                    android:width="36dp" />
+
+                <ImageView
+                    android:id="@+id/languageEnglishImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onLanguageClick"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/language_english"
+                    tools:ignore="ContentDescription" />
+
+                <com.hmc.onegoodday.widgets.OgdButton
+                    android:id="@+id/languageEnglishButton"
+                    style="@style/popup_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:onClick="onLanguageClick"
+                    android:width="36dp" />
+            </TableRow>
+        </TableLayout>
+
+        <com.hmc.onegoodday.widgets.OgdButton
+            android:id="@+id/okButton"
+            style="@style/popup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/emptyView"
+            android:layout_centerHorizontal="true"
+            android:enabled="false"
+            android:minWidth="72dp"
+            android:onClick="onOkClick"
+            android:text="@string/ok_button_text" />
+
+        <View
+            android:id="@id/emptyView"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

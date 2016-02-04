@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/popup_margin"
+    android:layout_marginLeft="@dimen/popup_margin_small"
+    android:layout_marginRight="@dimen/popup_margin_small"
+    android:layout_marginTop="@dimen/popup_margin"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_table_header_height"
+        android:gravity="center" >
+
+        <com.hmc.onegoodday.widgets.OgdTextView
+            style="@style/items_header"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/quest_name" />
+
+        <com.hmc.onegoodday.widgets.OgdTextView
+            style="@style/items_header"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/popup_table_header_cell_spacing"
+            android:layout_marginRight="@dimen/popup_table_header_cell_spacing"
+            android:text="@string/quest_ending_conditions" />
+
+        <com.hmc.onegoodday.widgets.OgdTextView
+            style="@style/items_header"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:text="@string/quest_reward" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/questLogQuestsScroller"
+        style="@style/items_vertical_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/questLogQuestsContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" />
+    </ScrollView>
+
+</LinearLayout>

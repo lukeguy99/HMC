@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/popup_table_row_height"
+    android:layout_gravity="center"
+    style="@style/table_row" >
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_marginRight="@dimen/drawable_padding"
+        android:src="@drawable/item_bottle"
+        tools:ignore="ContentDescription" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/itemName"
+        style="@style/small_text"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:text="knjizica"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/itemRemoveButton"
+        android:layout_width="@dimen/popup_add_remove_button_size"
+        android:layout_height="@dimen/popup_add_remove_button_size"
+        android:layout_marginRight="@dimen/drawable_padding"
+        android:background="@drawable/button_remove" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/itemQuantity"
+        style="@style/small_text"
+        android:layout_marginLeft="@dimen/popup_add_remove_button_spacing"
+        android:gravity="center"
+        android:text="0"
+        tools:ignore="HardcodedText" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        style="@style/small_text"
+        android:text="@string/item_quantity_separator" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/itemMaxQuantity"
+        style="@style/small_text"
+        android:layout_marginRight="@dimen/popup_add_remove_button_spacing"
+        android:gravity="center"
+        android:text="5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/itemAddButton"
+        android:layout_width="@dimen/popup_add_remove_button_size"
+        android:layout_height="@dimen/popup_add_remove_button_size"
+        android:layout_marginLeft="@dimen/drawable_padding"
+        android:background="@drawable/button_add" />
+
+    <ImageView
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/item_money"
+        android:layout_marginRight="@dimen/drawable_padding"
+        tools:ignore="ContentDescription" />
+
+    <com.hmc.onegoodday.widgets.OgdTextView
+        android:id="@+id/itemPrice"
+        style="@style/small_text"
+        android:gravity="center"
+        android:text="100"
+        tools:ignore="HardcodedText" />
+
+</TableRow>

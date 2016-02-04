@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bus_station_quest_name" formatted="false">Budi Samarićanka, otplati dug</string>
+    <string name="bus_station_quest_description" formatted="false">Novoizgrađena autobuska stanica propada dok joj grad duguje pare!\nTvoja misija, kao dobrog Samarićanina, je da sakupiš 1300 dinara da bi otplatila dug grada stanici.\nUkoliko u tome uspeš tvoja sreća će porasti za 30%.</string>
+    <string name="bus_station_quest_done" formatted="false">Izmirila si dug, a tvoja sreća se povećala za 30%!</string>
+    <string name="end_game_text">Prošla si kroz simulirano iskustvo jednog dobrog dana u Srbiji.\nUkoliko nisi umrla usled zdravstvanih problema ili besparice, uspela si da doživiš duboku starost, što je u Srbiji 73 godine!\nNadamo se da iskustvo ove simulacije nije bilo isuviše traumatično, jer ovo je ipak samo igra, zar ne?</string>
+    <string name="item_added_bottle">našla si flašu</string>
+    <string name="item_added_brick">našla si ciglu</string>
+    <string name="item_added_document">sakupila si dokument</string>
+    <string name="item_added_looted_car">obila si automobil</string>
+    <string name="item_added_stolen_bike">ukrala si bicikl</string>
+    <string name="item_added_stolen_cable">ukrala si kabel</string>
+    <string name="item_added_stolen_manhole">ukrala si šaht</string>
+    <string name="item_added_video">našla si snimak</string>
+    <string name="item_added_vote">sakupila si glas</string>
+    <string name="location_pharmacy_description">Dobrodošla u apoteku Izaberi svoj medikament!</string>
+    <string name="location_shop_description">Dobrodošla u prodavnicu! Izaberi potrebne artikle naspram svoje kupovne moći.\nAko nešto nemamo, pokušaj na drugoj lokaciji ili dođi kasnije.</string>
+    <string name="parking_quest_missing_prerequisites">Da bi obila auto potrebni su ti čekić i šrafciger.</string>
+    <string name="police_station_quest_reward_text">Zaradila si 50 dinara.</string>
+    <string name="quest_done">Ova misiju si završila.\nPotraži sreću na drugom mestu!</string>
+    <string name="quick_action_done">Ovaj zadatak si uradila.\nPotraži sreću na drugom mestu!</string>
+    <string name="theatre_location_description" formatted="false">Novo vreme donosi nove kreativne ljude i ideje! Danas svako ima šansu da radi u kulturnoj ustanovi, ne samo cinični kulturni radnici.\nDa postaneš direktorka pozorišta ili član upravnog odbora dovoljno je da si portir, kafe-kuvarica ili zvezda reality show-a.</string>
+    <string name="theatre_quest_name" formatted="false">Postani direktorka</string>
+    <string name="theatre_quest_description" formatted="false">Kultura je ponos ovog malog grada, a voditi jednu kulturnu ustanovu je veliki prestiž!\nTvoja misija je da postaneš direktorka, a da bi se to dogodilo potrebno je da diplomiraš, da se proslaviš i učlaniš u stranku.\nKada to uradiš tvoje sreća će porasti za 20%.</string>
+    <string name="town_hall_quest_done" formatted="false">Baš je lepo biti izabrana!\nA pogotovo kad za to dobiješ i 1000 dinara!</string>
+
+</resources>

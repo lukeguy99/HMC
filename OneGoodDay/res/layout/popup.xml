@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="0dp" >
+
+    <LinearLayout
+        android:layout_width="@dimen/popup_width"
+        android:layout_height="@dimen/popup_height"
+        android:background="@drawable/dialog_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <com.hmc.onegoodday.widgets.UpperCaseTextView
+            android:id="@+id/title"
+            style="@style/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/title_background"
+            android:drawableLeft="@drawable/logo_small"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:paddingRight="16dp"
+            android:text="@string/hospital_location_name" />
+
+        <ViewAnimator
+            android:id="@+id/popupViewAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <!-- SPEECH BUBBLE -->
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/popup_margin"
+                android:layout_marginLeft="@dimen/popup_margin"
+                android:layout_marginRight="@dimen/popup_margin"
+                layout="@layout/popup_speech_bubble" />
+
+            <!-- QUEST DESCRIPTION -->
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/popup_margin"
+                layout="@layout/popup_quest_description"
+                android:gravity="center"
+                android:padding="12dp" />
+
+            <!-- QUICK ACTION -->
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/popup_margin"
+                layout="@layout/popup_quick_action" />
+
+            <!-- SHOP -->
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/popup_margin"
+                android:layout_marginLeft="@dimen/popup_margin_small"
+                android:layout_marginRight="@dimen/popup_margin_small"
+                android:layout_marginTop="@dimen/popup_margin"
+                layout="@layout/popup_shop"
+                android:gravity="center" />
+
+            <!-- INVENTORY -->
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/popup_margin"
+                android:layout_marginLeft="@dimen/popup_margin_small"
+                android:layout_marginRight="@dimen/popup_margin_small"
+                android:layout_marginTop="@dimen/popup_margin"
+                layout="@layout/popup_inventory"
+                android:gravity="center" />
+
+            <!-- QUEST LOG -->
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/popup_margin"
+                android:layout_marginLeft="@dimen/popup_margin_small"
+                android:layout_marginRight="@dimen/popup_margin_small"
+                android:layout_marginTop="@dimen/popup_margin"
+                layout="@layout/popup_quest_log"
+                android:gravity="center" />
+        </ViewAnimator>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/popup_margin"
+            android:gravity="center"
+            android:weightSum="3" >
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                android:id="@+id/leftButton"
+                style="@style/popup_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:text="@string/quick_action_button_text" />
+
+            <com.hmc.onegoodday.widgets.OgdButton
+                android:id="@+id/rightButton"
+                style="@style/popup_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:text="@string/misson_button_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

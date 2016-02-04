@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ImageView
+        android:id="@+id/gameLogoSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="4dp"
+        android:scaleType="center"
+        android:src="@drawable/logo_small"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/statusBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/status_bar_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:padding="@dimen/status_bar_padding" >
+
+        <TextView
+            android:id="@+id/totalOil"
+            style="@style/statusBarTextView"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/barrel"
+            android:paddingLeft="@dimen/status_bar_padding"
+            android:text="100 l"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/collectedOil"
+            style="@style/statusBarTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/stain"
+            android:paddingLeft="@dimen/status_bar_padding"
+            android:text="0 l"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/nearest_distance"
+            style="@style/statusBarTextView"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/compass"
+            android:paddingLeft="@dimen/status_bar_padding"
+            android:text="1500 m"
+            tools:ignore="HardcodedText" />
+        
+        <TextView
+            android:id="@+id/time"
+            style="@style/statusBarTextView"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/time"
+            android:paddingLeft="@dimen/status_bar_padding"
+            android:text="2:00:00"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/popupLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/popup_background"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="closePopup"
+            android:text="@string/close" />
+
+        <ImageView
+            android:id="@+id/locationGlyph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_small"
+            tools:ignore="ContentDescription" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="24dp" >
+
+            <TextView
+                android:id="@+id/locationDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:text="@string/introduction"
+                android:textColor="@color/popup_text"
+                android:textSize="@dimen/popup_text" />
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

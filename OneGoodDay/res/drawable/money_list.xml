@@ -1,0 +1,10 @@
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/money_no"
+        android:maxLevel="0"/>
+    <item
+        android:drawable="@drawable/money"
+        android:maxLevel="1"/>
+
+</level-list>
